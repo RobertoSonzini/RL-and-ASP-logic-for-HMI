@@ -1,0 +1,41 @@
+{
+  "formal": [
+    ["clothing(well_dressed_people)", "language(formal_language)"],
+    ["noise(low_noise)", "clothing(well_dressed_people)", "language(formal_language)"],
+    ["posture(rigid_posture)", "language(formal_language)", "voice(calm_tone)", "clothing(well_dressed_people)"],
+    ["personal_space(large_interpersonal_distance)", "faces(low_smiles)", "voice(calm_tone)", "clothing(well_dressed_people)", "language(formal_language)"],
+    ["noise(low_noise)", "posture(rigid_posture)", "language(formal_language)", "clothing(well_dressed_people)"]
+  ],
+
+  "friendly": [
+    ["clothing(casual_clothing)", "faces(smiles)", "personal_space(close_distance)", "language(casual_language)", "voice(calm_tone)"],
+    ["faces(laughter)", "personal_space(close_distance)", "language(casual_language)", "voice(calm_tone)"],
+    ["posture(chill_posture)", "language(casual_language)", "personal_space(close_distance)", "voice(calm_tone)"],
+    ["voice(calm_tone)", "faces(smiles)", "personal_space(close_distance)", "language(casual_language)"],
+    ["noise(normal_noise)", "clothing(casual_clothing)", "faces(laughter)", "personal_space(close_distance)", "language(casual_language)", "voice(calm_tone)"]
+  ],
+
+  "neutral": [
+    ["clothing(mixed_clothing)", "noise(low_noise)", "language(casual_language)"],
+    ["posture(chill_posture)", "voice(calm_tone)", "personal_space(close_distance)"],
+    ["faces(low_smiles)", "noise(normal_noise)", "language(formal_language)"],
+    ["clothing(mixed_clothing)", "voice(calm_tone)", "noise(normal_noise)"],
+    ["posture(rigid_posture)", "faces(low_smiles)", "noise(low_noise)"]
+  ],
+
+  "tense": [
+    ["voice(raised_voices)", "posture(rigid_posture)", "faces(low_smiles)"],
+    ["noise(high_noise)", "personal_space(large_interpersonal_distance)", "language(casual_language)", "voice(raised_voices)"],
+    ["voice(raised_voices)", "noise(high_noise)", "posture(rigid_posture)"],
+    ["faces(low_smiles)", "voice(raised_voices)", "clothing(mixed_clothing)"],
+    ["posture(rigid_posture)", "personal_space(large_interpersonal_distance)", "noise(normal_noise)", "voice(raised_voices)"]
+  ],
+
+  "hostile": [
+    ["posture(aggressive_posture)", "language(insults)", "voice(very_raised_voices)"],
+    ["noise(high_noise)", "language(insults)", "faces(low_smiles)", "voice(very_raised_voices)"],
+    ["voice(very_raised_voices)", "personal_space(close_distance)", "posture(aggressive_posture)", "language(insults)"],
+    ["language(insults)", "posture(aggressive_posture)", "noise(high_noise)", "voice(very_raised_voices)"],
+    ["faces(low_smiles)", "voice(very_raised_voices)", "clothing(casual_clothing)", "language(insults)"]
+  ]
+}

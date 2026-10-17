@@ -1,0 +1,25 @@
+{
+    "general": {
+        "defaults": {
+            "max_value": 10,
+            "min_value": 0,
+            "step_size": 1,
+            "max_window_width": 15,
+            "min_window_width": 5
+        }
+    },
+    "agent": {
+        "defaults": {
+            "epsilon": 0.7,
+            "decay_rate": 0.9995,
+            "learning_rate": 0.2,
+            "discount_factor": 0.7
+        },
+        "search_space": {
+            "epsilon": [0.7],
+            "decay_rate": [0.9995, 0.99995],
+            "learning_rate": [0.2, 0.3],
+            "discount_factor": [0.7, 0.8]
+        }
+    }
+}

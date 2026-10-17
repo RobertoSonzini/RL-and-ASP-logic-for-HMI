@@ -1,0 +1,166 @@
+{
+  "neutral": {
+    "joke": {
+      "happiness": 0,
+      "sadness": 0,
+      "anger": 0,
+      "anxiety": 0
+    },
+    "hug": {
+      "happiness": 0,
+      "sadness": 0,
+      "anger": 0,
+      "anxiety": 0
+    },
+    "raise_tone": {
+      "happiness": 0,
+      "sadness": 0,
+      "anger": 0,
+      "anxiety": 0
+    },
+    "calm_tone": {
+      "happiness": 0,
+      "sadness": 0,
+      "anger": 0,
+      "anxiety": 0
+    },
+    "do nothing": {
+      "happiness": 0,
+      "sadness": 0,
+      "anger": 0,
+      "anxiety": 0
+    }
+  },
+
+  "formal": {
+    "joke": {
+      "happiness": -1,
+      "sadness": 0,
+      "anger": 1,
+      "anxiety": 1
+    },
+    "hug": {
+      "happiness": -2,
+      "sadness": 1,
+      "anger": 2,
+      "anxiety": 2
+    },
+    "raise_tone": {
+      "happiness": -2,
+      "sadness": 0,
+      "anger": 2,
+      "anxiety": 2
+    },
+    "calm_tone": {
+      "happiness": 1,
+      "sadness": 0,
+      "anger": -1,
+      "anxiety": -2
+    },
+    "do nothing": {
+      "happiness": 1,
+      "sadness": 0,
+      "anger": 0,
+      "anxiety": 0
+    }
+  },
+
+  "friendly": {
+    "joke": {
+      "happiness": 2,
+      "sadness": -2,
+      "anger": -1,
+      "anxiety": -2
+    },
+    "hug": {
+      "happiness": 2,
+      "sadness": -2,
+      "anger": -1,
+      "anxiety": -1
+    },
+    "raise_tone": {
+      "happiness": -1,
+      "sadness": 1,
+      "anger": 1,
+      "anxiety": 1
+    },
+    "calm_tone": {
+      "happiness": 1,
+      "sadness": -1,
+      "anger": -2,
+      "anxiety": -2
+    },
+    "do nothing": {
+      "happiness": -1,
+      "sadness": 2,
+      "anger": 0,
+      "anxiety": 0
+    }
+  },
+
+  "tense": {
+    "joke": {
+      "happiness": 0,
+      "sadness": 0,
+      "anger": 1,
+      "anxiety": 1
+    },
+    "hug": {
+      "happiness": -1,
+      "sadness": 1,
+      "anger": 2,
+      "anxiety": 2
+    },
+    "raise_tone": {
+      "happiness": -2,
+      "sadness": 0,
+      "anger": 2,
+      "anxiety": 2
+    },
+    "calm_tone": {
+      "happiness": 2,
+      "sadness": -1,
+      "anger": -2,
+      "anxiety": -2
+    },
+    "do nothing": {
+      "happiness": -1,
+      "sadness": 1,
+      "anger": 1,
+      "anxiety": 1
+    }
+  },
+
+  "hostile": {
+    "joke": {
+      "happiness": -2,
+      "sadness": 1,
+      "anger": 2,
+      "anxiety": 2
+    },
+    "hug": {
+      "happiness": -2,
+      "sadness": 2,
+      "anger": 2,
+      "anxiety": 2
+    },
+    "raise_tone": {
+      "happiness": -1,
+      "sadness": 0,
+      "anger": 2,
+      "anxiety": 1
+    },
+    "calm_tone": {
+      "happiness": 1,
+      "sadness": -1,
+      "anger": -1,
+      "anxiety": -1
+    },
+    "do nothing": {
+      "happiness": 0,
+      "sadness": 0,
+      "anger": -1,
+      "anxiety": 1
+    }
+  }
+}
